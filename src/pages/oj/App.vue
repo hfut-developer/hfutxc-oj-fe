@@ -57,7 +57,7 @@
 </script>
 
 <style lang="less">
-
+@import "/static/font/font.css";
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

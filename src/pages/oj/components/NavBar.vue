@@ -188,12 +188,12 @@ export default {
     border-bottom: 0px;
   }
   .navbar:hover {
-    color: orange;
-    border-bottom: 2px solid orange;
+    color: #FDD305;
+    border-bottom: 2px solid #FDD305;
   }
   .ivu-menu-item-active {
     color: white;
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid #FDD305;
   }
   .ivu-btn {
     background-color: black;
