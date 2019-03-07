@@ -6,9 +6,9 @@
         <router-view></router-view>
       </transition>
       <div class="footer">
-        <p v-html="website.website_footer"></p>
-        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
-          <span v-if="version">&nbsp; Version: {{ version }}</span>
+        <p>未来算法研究所</p>
+        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">QDU</a>
+          <span>&nbsp; Rebuild by NK</span>
         </p>
       </div>
     </div>
@@ -72,7 +72,6 @@
     }
   }
 
-
   .content-app {
     margin-top: 80px;
     padding: 0 2%;
@@ -88,6 +87,17 @@
   .fadeInUp-enter-active {
     animation: fadeInUp .8s;
   }
+  //Customed
+  .content-app {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-
+  #problem-main{
+    .flex-container {
+      display: block;
+    }
+  }
+  
 </style>
