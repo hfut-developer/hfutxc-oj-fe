@@ -64,7 +64,7 @@ body {
   margin-top: -27.5px;
 }
 #app-loader .square {
-  background: #2d8cf0;
+  background: black;
   width: 15px;
   height: 15px;
   float: left;
