@@ -171,7 +171,7 @@
         </ul>
       </Card>
 
-      <Card id="pieChart" :padding="0" v-if="!this.contestID || OIContestRealTimePermission">
+      <!-- <Card id="pieChart" :padding="0" v-if="!this.contestID || OIContestRealTimePermission">
         <div slot="title">
           <Icon type="ios-analytics"></Icon>
           <span class="card-title">Statistic</span>
@@ -180,17 +180,17 @@
         <div class="echarts">
           <ECharts :options="pie"></ECharts>
         </div>
-      </Card>
+      </Card> -->
     </div>
 
-    <Modal v-model="graphVisible">
+    <!-- <Modal v-model="graphVisible">
       <div id="pieChart-detail">
         <ECharts :options="largePie" :initOptions="largePieInitOpts"></ECharts>
       </div>
       <div slot="footer">
         <Button type="ghost" @click="graphVisible=false">Close</Button>
       </div>
-    </Modal>
+    </Modal> -->
   </div>
 </template>
 
