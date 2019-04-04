@@ -26,6 +26,10 @@
         <Icon type="ios-pulse-strong"></Icon>
         {{$t('m.NavStatus')}}
       </Menu-item>
+      <Menu-item name="/blog" class="navbar">
+        <Icon type="ios-book"/>
+        {{$t('m.Blog')}}
+      </Menu-item>
       <Submenu name="rank" class="navbar">
         <template slot="title">
           <Icon type="podium"></Icon>
@@ -188,12 +192,12 @@ export default {
     border-bottom: 0px;
   }
   .navbar:hover {
-    color: #FDD305;
-    border-bottom: 2px solid #FDD305;
+    color: #fdd305;
+    border-bottom: 2px solid #fdd305;
   }
   .ivu-menu-item-active {
     color: white;
-    border-bottom: 2px solid #FDD305;
+    border-bottom: 2px solid #fdd305;
   }
   .ivu-btn {
     background-color: black;

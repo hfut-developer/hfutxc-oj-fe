@@ -14,7 +14,8 @@ import {
   ResetPassword,
   SubmissionDetails,
   SubmissionList,
-  UserHome
+  UserHome,
+  Blog
 } from '../views'
 
 import * as Contest from '@oj/views/contest'
@@ -172,6 +173,12 @@ export default [
     name: 'faq',
     meta: {title: 'FAQ'},
     component: FAQ
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    meta: {title: 'BLOG'},
+    component: Blog
   },
   {
     path: '*',

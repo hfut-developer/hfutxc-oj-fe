@@ -39,6 +39,7 @@ export const m = {
   Problems_List: 'Problems List',
 
   // NavBar.vue
+  Blog: 'Blog',
   Home: 'Home',
   NavProblems: 'Problems',
   Contests: 'Contests',

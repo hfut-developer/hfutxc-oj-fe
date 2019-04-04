@@ -39,6 +39,7 @@ export const m = {
   Problems_List: '試題列表',
 
   // NavBar.vue
+  Blog: 'Blog',
   Home: '首頁',
   NavProblems: '試題',
   Contests: '比賽',
